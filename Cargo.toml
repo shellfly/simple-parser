@@ -1,0 +1,15 @@
+[package]
+name = "simple_tdop"
+version = "0.1.0"
+edition = "2021"
+license = "mit"
+description = "a simple parser based on TDOP"
+homepage = "https://github.com/shellfly/simple-parser"
+readme = "README.md"
+keywords = ["parser", "TDOP"]
+categories = ["parser-implementations"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.5.6"
